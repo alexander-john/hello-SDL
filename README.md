@@ -16,3 +16,9 @@ Hopefully you are already using Windows. If not, come back when you have a Windo
 1. Using the "Code" dropdown click "Download ZIP".
 
 ![Screenshot 2022-09-16 222400](https://user-images.githubusercontent.com/13820251/190836906-3351084e-cf99-41b4-83bf-ad80c9dac145.png)
+
+2. On the downloaded folder, "Extract all".
+3. In the newly extracted folder open "hello-SDL.sln".
+
+This is where the configurations start.
+
