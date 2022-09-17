@@ -20,5 +20,9 @@ Hopefully you are already using Windows. If not, come back when you have a Windo
 2. On the downloaded folder, "Extract all".
 3. In the newly extracted folder open "hello-SDL.sln".
 
-This is where the configurations start.
+If you try to "Build" your current solution you will get an error **"Cannot open include file: 'SDL.h'; No such file or directory"**. To resolve this:
 
+1. Go to project "Properties".
+2. On the left dropdown "Configuration Properties" click on "VC++ Directories".
+3. Go to "Include Directories" click the small dropdown to the right.
+4. Open "<Edit...>" and add the "include" folder...
