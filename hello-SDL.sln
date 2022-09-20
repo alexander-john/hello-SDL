@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-SDL", "hello-SDL.vcxproj", "{47A21C5B-9FBD-4E92-BB3A-3D30BFF4C824}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "hello-SDL-setup", "..\hello-SDL-setup\hello-SDL-setup.vdproj", "{881FEF10-B8C6-4E84-AA12-1CF4CB7048BF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,11 +21,6 @@ Global
 		{47A21C5B-9FBD-4E92-BB3A-3D30BFF4C824}.Release|x64.Build.0 = Release|x64
 		{47A21C5B-9FBD-4E92-BB3A-3D30BFF4C824}.Release|x86.ActiveCfg = Release|Win32
 		{47A21C5B-9FBD-4E92-BB3A-3D30BFF4C824}.Release|x86.Build.0 = Release|Win32
-		{881FEF10-B8C6-4E84-AA12-1CF4CB7048BF}.Debug|x64.ActiveCfg = Debug
-		{881FEF10-B8C6-4E84-AA12-1CF4CB7048BF}.Debug|x64.Build.0 = Debug
-		{881FEF10-B8C6-4E84-AA12-1CF4CB7048BF}.Debug|x86.ActiveCfg = Debug
-		{881FEF10-B8C6-4E84-AA12-1CF4CB7048BF}.Release|x64.ActiveCfg = Release
-		{881FEF10-B8C6-4E84-AA12-1CF4CB7048BF}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

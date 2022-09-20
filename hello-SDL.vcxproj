@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\shaaw\vclibs\SDL2-2.24.0\SDL2-2.24.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\shaaw\vclibs\SDL2-2.24.0\SDL2-2.24.0\VisualC\x64\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\shaaw\vclibs\SDL2-devel-2.24.0-VC\SDL2-2.24.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\shaaw\vclibs\SDL2-devel-2.24.0-VC\SDL2-2.24.0\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -133,15 +133,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="hello-SDL.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="hello-SDL.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\Downloads\favicon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
